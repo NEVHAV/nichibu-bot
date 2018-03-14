@@ -1,2 +1,8 @@
+# Thu muc cua IDE
 .idea/
+
+# Thu muc virtualenv
 env
+
+# Cache cua python
+*__pycache__*
