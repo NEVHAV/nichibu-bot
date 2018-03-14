@@ -36,7 +36,7 @@ $ deactivate
 
 ```
 $ source env/bin/activate
-$ python3 main.p
+$ python3 main.py
 ```
 
 ## Deployment
