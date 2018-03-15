@@ -4,21 +4,27 @@
 
 ### Prerequisites
 
+Cài python3 và pip3. Nếu máy bạn đã có thì bỏ qua bước này.
+
 Cài [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
 ```
 $ [sudo] pip3 install virtualenv
+$ sudo apt install python3-venv
 ```
 
 ### Installing
 
+Clone project từ git
+
 Tạo môi trường ảo bằng virtualenv
 ```
-$ virtualenv env
+$ cd nichibu-bot
+$ python3 -m venv .env
 ```
 
 Chạy môi trường ảo và cài các package cần thiết
 ```
-$ source env/bin/activate
+$ source .env/bin/activate
 $ pip3 install -r requirement.txt
 ```
 
