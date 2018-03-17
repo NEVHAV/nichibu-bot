@@ -41,7 +41,7 @@ $ deactivate
 ### Run project
 
 ```
-$ source env/bin/activate
+$ source .env/bin/activate
 $ python3 main.py
 ```
 
